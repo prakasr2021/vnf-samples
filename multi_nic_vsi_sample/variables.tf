@@ -84,3 +84,11 @@ variable "TF_VERSION" {
  default = "1.0.3"
  description = "terraform engine version to be used in schematics"
 }
+
+terraform {
+  required_providers {
+    ibm = {
+      source = "ibm-cloud/ibm"
+    }
+  }
+}
