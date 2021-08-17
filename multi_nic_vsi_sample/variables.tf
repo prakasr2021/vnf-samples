@@ -79,3 +79,8 @@ variable "vnf_security_group" {
   default     = "ubuntu-security-group"
   description = "The security group for VNF VPC"
 }
+
+variable "TF_VERSION" {
+ default = "1.0.3"
+ description = "terraform engine version to be used in schematics"
+}
